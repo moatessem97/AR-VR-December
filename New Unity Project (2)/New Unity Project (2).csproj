@@ -375,6 +375,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\Manager.cs" />
     <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Base\NPDemoBase.cs" />
     <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Base\NPDisabledFeatureDemo.cs" />
     <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Features\AddressBookDemo.cs" />
@@ -391,6 +392,8 @@
     <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Features\UtilityDemo.cs" />
     <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Features\WebViewDemo.cs" />
     <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Utility\Utility.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AmplifyShaderEditor\ChangeLog.txt" />
@@ -618,6 +621,12 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Templates\Sprites-Default.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Templates\UIDefault.shader" />
     <None Include="Assets\AmplifyShaderEditor\Readme.txt" />
+    <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
+    <None Include="Assets\Editor\Vuforia\Emulator\VuforiaEmulator.xml" />
+    <None Include="Assets\Editor\Vuforia\TargetsetData\VuforiaMars_Object_info.xml" />
+    <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
+    <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
+    <None Include="Assets\Horse\SoftAlpha.shader" />
     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.56.0.txt" />
     <None Include="Assets\Plugins\Android\AndroidManifest_root_activity_settings_sample.txt" />
     <None Include="Assets\Plugins\Android\NativePluginsAndroidReadMe.txt" />
@@ -717,6 +726,19 @@
     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\ReleaseNotes.txt" />
     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\XCodeModData.txt" />
     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\link.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\Apple.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
+    <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+    <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
+    <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+    <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
+    <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+    <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+    <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+    <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
     <None Include="Assets\link.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
