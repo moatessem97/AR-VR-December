@@ -11,10 +11,11 @@ public class NewManager : MonoBehaviour {
 
     public void Verify(int buttNum)
     {
+        GameObject.FindObjectOfType<AIB>().newPos(buttNum);
         if (buttNum == buttOrder[i])
         {
             i++;
-            GameObject.FindObjectOfType<AIB>().newPos();
+           
             if (i == buttOrder.Length)
             {
                 Debug.Log("game won");

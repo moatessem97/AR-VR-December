@@ -8,12 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: Aeiou7b/////AAAAmUX39vt6jEbwg1tQH4q+ypR4b+NfezWZPKI9C3o7ydE5ybV+SaROekC39tt3d35XgIxV/yVB5ADVpUdwkov8VOeQnFMhKupwP3WhMqfJumLVgNEb28yDojN16LKGu6rZp/5QXRmz6KDuoEs5XBQBnT9DpyWh2A29bBnlh/2n041aFcb+aGpnU7n3UUSqBHtCFfbCYqMOEBvXXVij12H+ERb+GxKWhXQ9RaC0xE3pMO0d1dSZNQLAqa/23wzoncubycYbbTacCYHpDkOgPnzAJBeQo7TJMyNQAL+oKGjtc1KdP2zg9WD57qEm1pOwAWqPD8rQsYAA+GUoG3sp96vq4DIEA3awRGDycQjKh+9XH9bH
-    ufoLicenseKey: QVJIamhqRC8vLy8vQUFBQUtMc1pKdnNnL1VhM3FIUTRjSGFGZmFVdEZEcnAyNkdndmt6ODNySUdTQW41cWNMSElvNlBicVo0eGVLRzlZTmRWWXVxSmtlNlFyRnE2RTN6WWdMaVhZMm1aaHA5SzdnN2FlSVBxUDdvdkV4NlQ2MHYvR2pWV0EwY0EwYUdhZ2x4L25sVUNzbTQvT0xqTDUwVmF6M05JaW9raHA2U1NXS3R2S3NMMzYxU2p4Y3JqSlR1NGtPRE1KWlF4RHZoaFd0eFYwK3ZXdGY4UXE0WGJwVGNPY3hOVm1pQTNwck5CeGZWdU1WQkdGRytGanhVdDJON0o4RGhsbzdQMFI2U2hZbWZEa01GNjdmSlcrMzFXU2ZJZTYyTDgrZjRFRjlmWDNJb0F4S3JoTmMraDlRdzg3YmNPcEIvazMxZUZCUThDam9rZWRJbk8vRFY3ZDB0bDl3UWVxVlBnWVMwZ05uLzFjdG92eTVwcENIcFBBVW8=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVpGaDg4Ny8vLy8vQUFBQUtCVVhvMVFNWVUwS2hLSnZFeTRHK0RwRGl6Z1VTSG8rZ2wxR1NQNVlMRHhTOGM5UERnNVBXVG5aWTdLOTd3alFTMDVuNHhsSSs4NlMvWi9aUlVMMVI2YW0vUDhEK2NRVFBHV0hObisxdEJHZC9ibmh6Z2MvY0V1b2pYV0VUcUV0SlVIUys3S09RSDNvSTFyQWY4aE1RdnZvTGpxaEFqRWxYYU5uTDU0a0FkdmRKdzdScHg5bEIwdzdtZlZ2MEZrMXVEcktYeDVxWlQwZDNuN0ZmUzNRVHVGTVQ1ZnRkTE9ZZ0ZmWnlRaFl3SkNpNEVJd1RncGh3UDhGS1VudTdueThCcDV1aVc5TUMyZ3RiRjVJa0RXdWFZc3NWY1ZlZUMrc1VIWEVjUDJaYzN2WHNDaDRvWGt5SEljRXl3VzFzWHk1aHVPQys5cFJKWm93SVJ0ZUkyYlFoc01GNkpOTnZ3USsrQXNFRGJYYVppUUs=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -44,15 +44,11 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - forbes
     - VuforiaMars_Images
     - VuforiaMars_VuMark
-    - Apple
     dataSetsToActivate:
-    - forbes
     - VuforiaMars_Images
     - VuforiaMars_VuMark
-    - Apple
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -61,8 +57,8 @@ MonoBehaviour:
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
+    autoInitTracker: 0
+    autoStartTracker: 0
     trackingMode: 0
     posePrediction: 0
     modelCorrectionMode: 0
@@ -72,7 +68,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: C922 Pro Stream Webcam
+    deviceNameSetInEditor: 
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
