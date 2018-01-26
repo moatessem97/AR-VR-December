@@ -375,7 +375,10 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\GameSequence.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
+    <Compile Include="Assets\Sport Car - 3D model\Scripts\CameraScript.cs" />
+    <Compile Include="Assets\Sport Car - 3D model\Scripts\LightEffects.cs" />
     <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Base\NPDemoBase.cs" />
     <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Base\NPDisabledFeatureDemo.cs" />
     <Compile Include="Assets\VoxelBusters\NativePlugins\Demo\Scripts\Features\AddressBookDemo.cs" />
