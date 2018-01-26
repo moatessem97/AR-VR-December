@@ -7,13 +7,15 @@ public class Buttons : MonoBehaviour
     public int buttNum;
 
 
-    public void OnCollisionEnter(Collision col)
+    public void OnTriggerEnter(Collider col)
     {
-       if (col.gameObject.tag == ("Hand"))
+       if (col.tag == ("Hand"))
         {
             GameObject.FindObjectOfType<NewManager>().Verify(buttNum);
         } 
     }
+
+   
 
 
 

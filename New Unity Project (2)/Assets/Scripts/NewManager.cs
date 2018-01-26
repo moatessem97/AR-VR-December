@@ -14,6 +14,7 @@ public class NewManager : MonoBehaviour {
         if (buttNum == buttOrder[i])
         {
             i++;
+            GameObject.FindObjectOfType<AIB>().newPos();
             if (i == buttOrder.Length)
             {
                 Debug.Log("game won");
