@@ -5,7 +5,7 @@ using UnityEngine;
 public class AIB : MonoBehaviour {
 
     public Transform[] nodes;
-    [SerializeField]
+    
     private Transform currNode;
     public float speed;
     private GameObject head;
@@ -13,7 +13,7 @@ public class AIB : MonoBehaviour {
 	void Start ()
     {
         currNode = nodes[8];
-        head = transform.GetChild(0).gameObject;
+      //  head = transform.GetChild(0).gameObject;
 	}
 
     // Update is called once per frame
@@ -23,10 +23,10 @@ public class AIB : MonoBehaviour {
         {
             transform.position = Vector3.MoveTowards(transform.position, currNode.position, speed * Time.deltaTime);
         }
-        if (GameObject.FindGameObjectWithTag("Hand"))
-        {
-            head.transform.LookAt(GameObject.FindGameObjectWithTag("Hand").transform);
-        }
+        //if (GameObject.FindGameObjectWithTag("Hand"))
+        //{
+        //    head.transform.LookAt(GameObject.FindGameObjectWithTag("Hand").transform);
+        //}
 	}
 
     public void newPos(int nodePos)
