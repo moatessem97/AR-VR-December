@@ -697,6 +697,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\License.txt" />
     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Readme.txt" />
     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\ReleaseNotes.txt" />

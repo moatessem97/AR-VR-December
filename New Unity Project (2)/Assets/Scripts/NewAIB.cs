@@ -10,6 +10,7 @@ public class NewAIB : MonoBehaviour {
     private Transform currtarget;
     NavMeshAgent agent;
     GameObject cube;
+    private Animator anim;
     // Use this for initialization
     void Start()
     {
@@ -17,6 +18,7 @@ public class NewAIB : MonoBehaviour {
         currtarget = targets[6];
         agent.SetDestination(currtarget.position);
         cube = GameObject.Find("MyCube");
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,9 +26,10 @@ public class NewAIB : MonoBehaviour {
     {
         //AgentMoveToNode();
         agent.SetDestination(cube.transform.position);
+        AnimUpdate();
     }
 
-        private void AgentMoveToNode()
+    private void AgentMoveToNode()
         {
             if (agent.transform.position != currtarget.position)
             {
@@ -34,9 +37,25 @@ public class NewAIB : MonoBehaviour {
             }
         }
 
-        public void newpos(int nodePos)
+    public void newpos(int nodePos)
         {
             currtarget = targets[nodePos];
         }
+
+    private void AnimUpdate()
+    {
+
+        Vector3 currVel = agent.desiredVelocity;
+        if (currVel.magnitude > 1)
+        {
+            currVel.Normalize();
+        }
+        currVel = transform.InverseTransformDirection(currVel);
+        anim.SetFloat("BlendY", currVel.magnitude, 0.1f, Time.deltaTime);
+
+    }
+
+    
+
     }
 
